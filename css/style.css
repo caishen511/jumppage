@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0
+}
+li {
+	list-style: none
+}
+em,i {
+	font-style: normal
+}
+img {
+	border: 0;
+	vertical-align: middle
+}
+button {
+	cursor: pointer
+}
+a {
+	color: rgb(196, 47, 72);
+	text-decoration: none
+}
+html {
+	background: #f7f7f7
+}
+body {
+	-webkit-font-smoothing:antialiased;
+	font-size: 20px;
+	font-family: 'Microsoft YaHei','Heiti SC','Tahoma','Arial','Hiragino Sans GB',"\5B8B\4F53",'sans-serif','Source HanSans SC','Source HanSerif SC',
+}
+@media (max-width: 760px) {
+	.show-l {
+		display: block !important;
+	}
+	.hidden-l {
+		display: none !important;
+	}
+}
+
+@media (min-width: 761px) and (max-width: 1000px) {
+	.show-s {
+		display: block !important;
+	}
+	.hidden-s {
+		display: none !important;
+	}
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+	.show-m {
+		display: block !important;
+	}
+	.hidden-m {
+		display: none !important;
+	}
+}
+
+@media (min-width: 1201px) {
+	.show-b {
+		display: block !important;
+	}
+	.hidden-b {
+		display: none !important;
+	}
+}
